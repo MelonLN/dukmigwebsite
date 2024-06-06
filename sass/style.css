@@ -96,6 +96,7 @@ input:focus {
 }
 
 .form-control {
+  color: white !important;
   background-color: rgb(41, 41, 41);
   border: 1px solid rgba(117, 117, 117, 0.2666666667);
 }
