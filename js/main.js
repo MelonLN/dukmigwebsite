@@ -139,3 +139,14 @@ function validateForm(event) {
         document.getElementById('msgError').style.display = 'block';
     }
 }
+
+AOS.init();
+$(document).ready(function() {
+    $('#btn-close').click(function() {
+        $('#alert').slideUp(500);
+    });
+});
+
+
+
+
