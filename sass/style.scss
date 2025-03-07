@@ -95,6 +95,17 @@ header {
     .nav {
         position: relative;
     }
+    #channel-container2{
+        img{
+            transform: translateX(-4px) scale(0.8);
+        }
+        .title-container.p-2{
+            transform: translateX(-20px) scale(0.8);
+        }
+        .button-container{
+            transform: translateX(84px) scale(0.8);
+        }
+    }
     #alert-container{
         display: none;
         justify-content: center;
