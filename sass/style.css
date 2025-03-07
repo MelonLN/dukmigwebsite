@@ -92,7 +92,7 @@ header #navbar .title-container #title {
     position: relative;
   }
   #alert-container {
-    display: none;
+    display: flex;
     justify-content: center;
   }
   #alert-container #alert {
@@ -489,20 +489,28 @@ input.invalid {
 }
 .slider1 .content .card .card-title,
 .slider .content .card .card-title {
+  align-items: center;
   display: flex;
+  margin-bottom: 0px;
 }
 .slider1 .content .card .card-title img,
 .slider .content .card .card-title img {
+  margin-top: 0px;
   border-radius: 200px;
   border: 2px solid #ffffff;
 }
 .slider1 .content .card .card-title .title-container,
 .slider .content .card .card-title .title-container {
-  margin-top: 10px;
+  align-content: center;
   padding: 8px;
+}
+.slider1 .content .card .card-title .title-container h5,
+.slider .content .card .card-title .title-container h5 {
+  margin-bottom: 0px;
 }
 .slider1 .content .card .card-title .title-container h5 p,
 .slider .content .card .card-title .title-container h5 p {
+  margin-bottom: 0px;
   font-size: 12px;
 }
 .slider1 .content .card img,
@@ -581,4 +589,15 @@ input.invalid {
 
 .slider1 .form1.right .item .content {
   transform: rotateY(1deg) scale(0.8);
+}
+
+foot {
+  margin-bottom: 5px;
+}
+foot #cpr {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: xx-small;
 }/*# sourceMappingURL=style.css.map */

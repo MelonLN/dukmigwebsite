@@ -524,21 +524,25 @@ input.invalid {
             display: flex;
             .card-title{
                 img{
+                    margin-top: 0px;
                     border-radius: 200px;
                     border: 2px solid #ffffff;
                 }
+                // justify-content: center;
+                align-items: center;
                 display: flex;
+                margin-bottom: 0px;
                 .title-container{
-                    margin-top: 10px;
+                    align-content: center;
+                    // margin-top: 10px;
                     padding: 8px;
                     h5{
+                        margin-bottom: 0px;
                         a {
                             
-                            &:hover{
-
-                            }
                         }
                         p {
+                            margin-bottom: 0px;
                             font-size: 12px;
                         }
 
@@ -611,4 +615,15 @@ input.invalid {
 }
 .slider1 .form1.right .item .content{
     transform: rotateY(1deg) scale(0.8);
+}
+
+foot{
+    margin-bottom: 5px;
+    #cpr{
+        justify-content: center;
+        align-items: center;
+        color: white;
+        display: flex;
+        font-size: xx-small;
+    }
 }
