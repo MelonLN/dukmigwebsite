@@ -147,6 +147,27 @@ $(document).ready(function() {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("./lol.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("dukmig-text2").innerHTML = data;
+        })
+        .catch(error => console.error("error while loading filefile HTML: ", error));
+});
 
+
+function toggleDivs() {
+    var div1 = document.getElementById("dukmig-text1");
+    var div2 = document.getElementById("dukmig-text2");
+
+    if (div1.style.display === "none") {
+        div1.style.display = "block";
+        div2.style.display = "none";
+    } else {
+        div1.style.display = "none";
+        div2.style.display = "block";
+    }
+}
 
 

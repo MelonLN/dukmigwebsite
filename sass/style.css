@@ -609,4 +609,32 @@ foot #cpr {
   color: white;
   display: flex;
   font-size: xx-small;
+}
+
+#about-container #btn {
+  position: relative;
+  margin-bottom: 40px;
+}
+#about-container #btn #idkbtn {
+  position: absolute;
+  transition: all 0.5s;
+}
+#about-container #btn #idkbtn:hover {
+  color: black;
+  transform: scale(105%);
+}
+#about-container #btn #idkbtn:active {
+  color: black;
+  transition: all 0.3s;
+  transform: scale(98%);
+}
+
+#dukmig-text1 {
+  display: block;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#dukmig-text2 {
+  display: none;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }/*# sourceMappingURL=style.css.map */
